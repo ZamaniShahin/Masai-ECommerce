@@ -1,12 +1,15 @@
-﻿namespace _0_Framework.Domain;
+﻿using System;
 
-public class EntityBase
+namespace _0_Framework.Domain
 {
-    public long Id { get; set; }
-    public DateTime CreationDate { get; set; }
-
-    public EntityBase()
+    public class EntityBase
     {
-        CreationDate = DateTime.Now;
+        public long Id { get; set; }
+        public DateTime CreationDate { get; set; }
+
+        public EntityBase()
+        {
+            CreationDate = DateTime.Now;
+        }
     }
 }
