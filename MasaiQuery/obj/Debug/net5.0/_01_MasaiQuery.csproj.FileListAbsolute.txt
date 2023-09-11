@@ -1,0 +1,12 @@
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\bin\Debug\net5.0\_01_MasaiQuery.deps.json
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\bin\Debug\net5.0\_01_MasaiQuery.dll
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\bin\Debug\net5.0\_01_MasaiQuery.pdb
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\_01_MasaiQuery.csproj.AssemblyReference.cache
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\_01_MasaiQuery.GeneratedMSBuildEditorConfig.editorconfig
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\_01_MasaiQuery.AssemblyInfoInputs.cache
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\_01_MasaiQuery.AssemblyInfo.cs
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\_01_MasaiQuery.csproj.CoreCompileInputs.cache
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\_01_MasaiQuery.dll
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\refint\_01_MasaiQuery.dll
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\_01_MasaiQuery.pdb
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\ref\_01_MasaiQuery.dll

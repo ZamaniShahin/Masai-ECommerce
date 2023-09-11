@@ -1,0 +1,5 @@
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\01_MasaiQuery.csproj.AssemblyReference.cache
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\01_MasaiQuery.GeneratedMSBuildEditorConfig.editorconfig
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\01_MasaiQuery.AssemblyInfoInputs.cache
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\01_MasaiQuery.AssemblyInfo.cs
+E:\SourceCodes\@Masai-ECommerce\MasaiQuery\obj\Debug\net5.0\01_MasaiQuery.csproj.CoreCompileInputs.cache

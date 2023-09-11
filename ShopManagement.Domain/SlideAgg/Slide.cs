@@ -12,9 +12,10 @@
         public string BtnText { get; set; }
         public bool IsRemoved { get; private set; }
         public string CreationDate { get; set; }
+        public string Link { get; private set; }
 
         public Slide(string picture, string pictureAlt, string pictureTitle, string heading,
-            string title, string text, string btnText, string creationDate)
+            string title, string text, string btnText, string creationDate, string link)
         {
             Picture = picture;
             PictureAlt = pictureAlt;
@@ -25,9 +26,10 @@
             BtnText = btnText;
             IsRemoved = false;
             CreationDate = creationDate;
+            Link = link;
         }
         public void Edit(string picture, string pictureAlt, string pictureTitle, string heading,
-            string title, string text, string btnText)
+            string title, string text, string btnText,string link)
         {
             Picture = picture;
             PictureAlt = pictureAlt;
@@ -36,6 +38,7 @@
             Title = title;
             Text = text;
             BtnText = btnText;
+            Link = link;
         }
 
         public void Remove()
