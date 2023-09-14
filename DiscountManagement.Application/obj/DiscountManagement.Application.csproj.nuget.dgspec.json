@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {}
+    "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {}
   },
   "projects": {
     "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
@@ -91,6 +91,68 @@
             "projectReferences": {
               "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "projectName": "DiscountManagement.Application",
+        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
+        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
+              },
+              "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
               }
             }
           }

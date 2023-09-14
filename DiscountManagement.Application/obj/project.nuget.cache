@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZyMk/YutDazBviJ9Eu9fiNXy+IldwSb6nnY8AgTz14yOrpsQckV+YFh8hHKyaFzWm5j18lRiNuwozIp9+m5GjA==",
+  "dgSpecHash": "g0pJvP7yIPXRgdPnCeqZ67ri3tHSW6pojEyUIhRo9DAV0FJ1Zpv67TkxqUD5dc9kBHo4ZFzQ8rr6XmeGQlmPSg==",
   "success": true,
-  "projectFilePath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+  "projectFilePath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.9\\microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.9\\microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
