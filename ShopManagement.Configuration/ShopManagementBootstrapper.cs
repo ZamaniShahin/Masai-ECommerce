@@ -1,4 +1,5 @@
 ﻿using System;
+using _01_MasaiQuery.Contracts.ProductCategory;
 using _01_MasaiQuery.Contracts.Slide;
 using _01_MasaiQuery.Query;
 using Microsoft.EntityFrameworkCore;
@@ -34,6 +35,8 @@ namespace ShopManagement.Configuration
             services.AddTransient<ISlideRepository,SlideRepository>();
 
             services.AddTransient<ISlideQuery, SlideQuery>();
+
+            services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }

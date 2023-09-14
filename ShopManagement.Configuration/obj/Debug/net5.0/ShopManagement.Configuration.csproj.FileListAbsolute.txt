@@ -50,3 +50,5 @@ E:\SourceCodes\@Masai-ECommerce\ShopManagement.Configuration\obj\Debug\net5.0\re
 E:\SourceCodes\@Masai-ECommerce\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 E:\SourceCodes\@Masai-ECommerce\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.genruntimeconfig.cache
 E:\SourceCodes\@Masai-ECommerce\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
+E:\SourceCodes\@Masai-ECommerce\ShopManagement.Configuration\bin\Debug\net5.0\_01_MasaiQuery.dll
+E:\SourceCodes\@Masai-ECommerce\ShopManagement.Configuration\bin\Debug\net5.0\_01_MasaiQuery.pdb

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ShopManagement.Infrastructure.EFCore.Migrations
 {
-    public partial class initDatabase : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -42,7 +42,8 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                     Text = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
                     BtnText = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     IsRemoved = table.Column<bool>(type: "bit", nullable: false),
-                    CreationDate = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    CreationDate = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Link = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
