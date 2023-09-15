@@ -26,7 +26,6 @@ namespace ShopManagement.Domain.SlideAgg
             Text = text;
             BtnText = btnText;
             IsRemoved = false;
-            CreationDate = creationDate;
             Link = link;
         }
         public void Edit(string picture, string pictureAlt, string pictureTitle, string heading,

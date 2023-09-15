@@ -8,7 +8,7 @@ namespace DiscountManagement.Infrastructure.EFCore
     {
         public DbSet<CustomerDiscount> CustomerDiscounts { get; set; }
 
-        public DisCountContext(DbContextOptions<DiscountContext> options) : base(options) { }
+        public DiscountContext(DbContextOptions<DiscountContext> options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             var assembly = typeof(DiscountContext).Assembly;
