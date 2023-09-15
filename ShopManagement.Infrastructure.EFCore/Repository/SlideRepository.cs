@@ -3,6 +3,7 @@ using System.Linq;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Slide;
+using _0_Framework.Application;
 using ShopManagement.Domain.SlideAgg;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
@@ -40,8 +41,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Picture = x.Picture,
                 Title = x.Title,
                 IsRemoved = x.IsRemoved,
-                //CreationDate = x.CreationDate.ToString()
-                CreationDate = "2023-09-01 13:37:12.1597443"
+                CreationDate = x.CreationDate.ToFarsi()
+                //CreationDate = "2023-09-01 13:37:12.1597443"
             }).OrderByDescending(x => x.Id).ToList();
         }
     }

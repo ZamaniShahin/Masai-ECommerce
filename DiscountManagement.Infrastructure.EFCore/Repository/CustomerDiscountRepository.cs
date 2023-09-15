@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using DiscountManagement.Domain.CustomerDiscountAgg;
@@ -41,8 +42,9 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 DiscountRate = x.DiscountRate,
-                EndDate = x.EndDate.ToString(),
+                EndDate = x.EndDate.ToFarsi(),
                 EndDateGr = x.EndDate,
+                StartDate = x.StartDate.ToFarsi(),
                 StartDateGr = x.StartDate,
                 ProductId = x.ProductId,
                 Reason = x.Reason
@@ -54,13 +56,11 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
 
             if (!string.IsNullOrWhiteSpace(searchModel.StartDate))
             {
-                var startDate = DateTime.Now;
-                query = query.Where(x => x.StartDateGr > startDate);
+                query = query.Where(x => x.StartDateGr > searchModel.StartDate.ToGeorgianDateTime());
             }
             if (!string.IsNullOrWhiteSpace(searchModel.EndDate))
             {
-                var endDate = DateTime.Now;
-                query = query.Where(x => x.EndDateGr > endDate);
+                query = query.Where(x => x.EndDateGr > searchModel.EndDate.ToGeorgianDateTime());
             }
 
             var discounts = query.OrderByDescending(x => x.Id).ToList();

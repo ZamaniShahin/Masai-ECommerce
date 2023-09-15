@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
@@ -56,7 +57,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                     Code = x.Code,
                     Picture = x.Picture,
                     UnitPrice = x.UnitPrice,
-                    CreationDate = x.CreationDate.ToString(),
+                    CreationDate = x.CreationDate.ToFarsi(),
                     IsInStock = x.IsInStock
                 });
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
