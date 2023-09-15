@@ -14,5 +14,6 @@ namespace DiscountManagement.Application.Contract.CustomerDiscount
         public DateTime EndDateGr { get; set; }
 
         public string Reason { get; set; }
+        public string CreationDate { get; set; }
     }
 }
