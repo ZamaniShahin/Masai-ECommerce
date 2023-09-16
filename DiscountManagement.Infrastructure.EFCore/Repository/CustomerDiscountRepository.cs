@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using DiscountManagement.Domain.CustomerDiscountAgg;
 using ShopManagement.Infrastructure.EFCore;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 
 namespace DiscountManagement.Infrastructure.EFCore.Repository
 {
@@ -21,7 +20,6 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
             _shopContext = shopContext;
         }
 
-
         public EditCustomerDiscount GetDetails(long id)
         {
             return _context.CustomerDiscounts.Select(x => new EditCustomerDiscount
@@ -29,8 +27,8 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 ProductId = x.ProductId,
                 DiscountRate = x.DiscountRate,
-                StartDate = x.StartDate.ToFarsi(),
-                EndDate = x.EndDate.ToFarsi(),
+                StartDate = x.StartDate.ToString(CultureInfo.InvariantCulture),
+                EndDate = x.EndDate.ToString(CultureInfo.InvariantCulture),
                 Reason = x.Reason
             }).FirstOrDefault(x => x.Id == id);
         }
@@ -48,25 +46,27 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 StartDateGr = x.StartDate,
                 ProductId = x.ProductId,
                 Reason = x.Reason,
-                CreationDate = x.CreationDate.ToFarsi(),
+                CreationDate = x.CreationDate.ToFarsi()
             });
+
             if (searchModel.ProductId > 0)
-            {
                 query = query.Where(x => x.ProductId == searchModel.ProductId);
-            }
 
             if (!string.IsNullOrWhiteSpace(searchModel.StartDate))
             {
                 query = query.Where(x => x.StartDateGr > searchModel.StartDate.ToGeorgianDateTime());
             }
+
             if (!string.IsNullOrWhiteSpace(searchModel.EndDate))
             {
-                query = query.Where(x => x.EndDateGr > searchModel.EndDate.ToGeorgianDateTime());
+                query = query.Where(x => x.EndDateGr < searchModel.EndDate.ToGeorgianDateTime());
             }
 
             var discounts = query.OrderByDescending(x => x.Id).ToList();
-            discounts.ForEach(discount => 
-                discount.Product = products.FirstOrDefault(x=>x.Id == discount.ProductId)?.Name);
+
+            discounts.ForEach(discount =>
+                discount.Product = products.FirstOrDefault(x => x.Id == discount.ProductId)?.Name);
+
             return discounts;
         }
     }

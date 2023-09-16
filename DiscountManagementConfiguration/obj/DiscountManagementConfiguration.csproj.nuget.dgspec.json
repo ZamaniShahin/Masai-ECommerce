@@ -91,6 +91,9 @@
             "projectReferences": {
               "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -104,12 +107,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

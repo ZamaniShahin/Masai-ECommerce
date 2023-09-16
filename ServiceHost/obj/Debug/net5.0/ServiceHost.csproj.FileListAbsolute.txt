@@ -372,11 +372,6 @@ E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\DiscountManagement.
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
-E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
-E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
-E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
-E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
-E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\CustomerDiscounts\Create.cshtml.g.cs
-E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\CustomerDiscounts\Edit.cshtml.g.cs
-E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\CustomerDiscounts\Index.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Create.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Edit.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discounts\CustomerDiscounts\Index.cshtml.g.cs

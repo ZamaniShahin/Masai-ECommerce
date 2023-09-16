@@ -222,9 +222,10 @@
     @RenderSection("Scripts",false)
 
     <script>
-        $('.persianDateInput').persianDatePicker({
+        $('.persianDateInput').persianDatepicker({
             format: 'YYYY/MM/DD',
-            autoClose:true
+            autoClose: true,
+            initialValueType: "persian"
         });
     </script>
 

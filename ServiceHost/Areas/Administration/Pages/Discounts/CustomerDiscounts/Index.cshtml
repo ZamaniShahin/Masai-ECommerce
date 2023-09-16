@@ -1,5 +1,5 @@
 ﻿@page
-@model ServiceHost.Areas.Administration.Pages.Discount.CustomerDiscounts.IndexModel
+@model Areas.Administration.Pages.Discounts.CustomerDiscounts.IndexModel
 @{
 }
 
@@ -12,7 +12,7 @@
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index","Create")">تعریف تخفیف مشتری</a>
+            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">تعریف تخفیف مشتری</a>
         </p>
     </div>
 </div>
@@ -51,7 +51,7 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">لیست تخفیفات مشتریان(@Model.CustomerDiscounts.Count)</h3>
+                <h3 class="panel-title">لیست تخفیفات مشتریان (@Model.CustomerDiscounts.Count)</h3>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -66,7 +66,7 @@
                                     <th>تاریخ پایان</th>
                                     <th>علت تخفیف</th>
                                     <th>تاریخ تولید</th>
-                                    @*<th>عملیات</th>*@
+                                    <th>عملیات</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -75,11 +75,17 @@
                                     <tr>
                                         <td>@item.Id</td>
                                         <td>@item.Product</td>
-                                        <td>@item.DiscountRate</td>
+                                        <td>@item.DiscountRate%</td>
                                         <td>@item.StartDate</td>
                                         <td>@item.EndDate</td>
                                         <td>@item.Reason</td>
                                         <td>@item.CreationDate</td>
+                                        <td>
+                                            <a class="btn btn-warning waves-effect waves-light m-b-5"
+                                               href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
+                                                <i class="fa fa-edit"></i> ویرایش
+                                            </a>
+                                        </td>
                                     </tr>
                                 }
                             </tbody>

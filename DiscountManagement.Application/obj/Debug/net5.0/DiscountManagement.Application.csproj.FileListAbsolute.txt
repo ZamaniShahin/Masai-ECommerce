@@ -17,3 +17,5 @@ E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application\obj\Debug\net5.0\
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application\obj\Debug\net5.0\refint\DiscountManagement.Application.dll
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application\obj\Debug\net5.0\DiscountManagement.Application.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application\obj\Debug\net5.0\ref\DiscountManagement.Application.dll
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

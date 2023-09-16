@@ -1,12 +1,11 @@
-using System.Collections.Generic;
 using DiscountManagement.Application.Contract.CustomerDiscount;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
-using ShopManagement.Application.Contracts.ProductCategory;
+using System.Collections.Generic;
 
-namespace ServiceHost.Areas.Administration.Pages.Discount.CustomerDiscounts
+namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
 {
     public class IndexModel : PageModel
     {
@@ -15,14 +14,16 @@ namespace ServiceHost.Areas.Administration.Pages.Discount.CustomerDiscounts
         public CustomerDiscountSearchModel SearchModel;
         public List<CustomerDiscountViewModel> CustomerDiscounts;
         public SelectList Products;
-        private readonly ICustomerDiscountApplication _customerDiscountApplication;
-        private readonly IProductApplication _productApplication;
 
-        public IndexModel(IProductApplication productApplication, ICustomerDiscountApplication customerDiscountApplication)
+        private readonly IProductApplication _productApplication;
+        private readonly ICustomerDiscountApplication _customerDiscountApplication;
+
+        public IndexModel(IProductApplication ProductApplication, ICustomerDiscountApplication customerDiscountApplication)
         {
+            _productApplication = ProductApplication;
             _customerDiscountApplication = customerDiscountApplication;
-            _productApplication = productApplication;
         }
+
         public void OnGet(CustomerDiscountSearchModel searchModel)
         {
             Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
@@ -33,7 +34,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discount.CustomerDiscounts
         {
             var command = new DefineCustomerDiscount
             {
-                Products = new SelectList(_productApplication.GetProducts(),"Id","Name")
+                Products = _productApplication.GetProducts()
             };
             return Partial("./Create", command);
         }
@@ -46,9 +47,9 @@ namespace ServiceHost.Areas.Administration.Pages.Discount.CustomerDiscounts
 
         public IActionResult OnGetEdit(long id)
         {
-            var customerDiscounts = _customerDiscountApplication.GetDetails(id);
-            customerDiscounts.Products = new SelectList(_productApplication.GetProducts(), "Id", "Name");
-            return Partial("Edit", customerDiscounts);
+            var customerDiscount = _customerDiscountApplication.GetDetails(id);
+            customerDiscount.Products = _productApplication.GetProducts();
+            return Partial("Edit", customerDiscount);
         }
 
         public JsonResult OnPostEdit(EditCustomerDiscount command)
