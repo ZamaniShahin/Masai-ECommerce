@@ -225,19 +225,6 @@
         "runtime": {
           "bin/placeholder/0_Framework.dll": {}
         }
-      },
-      "InventoryManagement.Application.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "0_Framework": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
-        }
       }
     }
   },
@@ -602,17 +589,11 @@
       "type": "project",
       "path": "../0_Framework/0_Framework.csproj",
       "msbuildProject": "../0_Framework/0_Framework.csproj"
-    },
-    "InventoryManagement.Application.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../InventoryManagement.Application.Contracts/InventoryManagement.Application.Contracts.csproj",
-      "msbuildProject": "../InventoryManagement.Application.Contracts/InventoryManagement.Application.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "0_Framework >= 1.0.0",
-      "InventoryManagement.Application.Contracts >= 1.0.0"
+      "0_Framework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -621,11 +602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
-      "projectName": "InventoryManagement.Domain",
-      "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+      "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+      "projectName": "InventoryManagement.Application.Contracts",
+      "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-      "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\obj\\",
+      "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -644,9 +625,6 @@
           "projectReferences": {
             "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
               "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
-            },
-            "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
             }
           }
         }

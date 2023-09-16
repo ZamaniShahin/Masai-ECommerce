@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x0nWG64xFUDFhoEG2DuBsIAYrppeLPFfAY8pmPwzYhb6GKnlh3d8C/qiIzSVwS0ewz3UoyQoiN3TQJKqLGrMBQ==",
+  "dgSpecHash": "rXo8uNKaHC+bWux5rWxi0z4aseR1kOOIuL4v7o/MsAkmQqj4lNZzGCQM+dsoALAQwmgzX7ZJcZ8pbJnNCFI1Qw==",
   "success": true,
-  "projectFilePath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+  "projectFilePath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.9\\microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.9\\microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
