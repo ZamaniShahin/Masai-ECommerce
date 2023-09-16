@@ -1,0 +1,12 @@
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.deps.json
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.AssemblyInfo.cs
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\refint\InventoryManagement.Infrastructure.EFCore.dll
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.EFCore\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.EFCore.dll
