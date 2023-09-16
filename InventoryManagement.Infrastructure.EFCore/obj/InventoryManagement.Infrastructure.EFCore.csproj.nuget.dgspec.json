@@ -91,6 +91,9 @@
             "projectReferences": {
               "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
                 "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              },
+              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

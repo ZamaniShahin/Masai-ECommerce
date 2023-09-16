@@ -25,3 +25,5 @@ E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.Configuration
 E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\refint\InventoryManagement.Infrastructure.Configuration.dll
 E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
 E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.Configuration\obj\Debug\net5.0\ref\InventoryManagement.Infrastructure.Configuration.dll
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.dll
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Infrastructure.Configuration\bin\Debug\net5.0\InventoryManagement.Application.pdb

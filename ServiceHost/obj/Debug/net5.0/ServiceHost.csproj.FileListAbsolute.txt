@@ -383,3 +383,8 @@ E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\InventoryManagement
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Create.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Edit.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Index.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb

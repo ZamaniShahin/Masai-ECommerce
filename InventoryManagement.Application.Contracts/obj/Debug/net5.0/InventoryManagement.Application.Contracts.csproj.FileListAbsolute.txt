@@ -13,3 +13,5 @@ E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Application.Contracts\obj\De
 E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Application.Contracts\obj\Debug\net5.0\refint\InventoryManagement.Application.Contracts.dll
 E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Application.Contracts\obj\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
 E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Application.Contracts\obj\Debug\net5.0\ref\InventoryManagement.Application.Contracts.dll
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\SourceCodes\@Masai-ECommerce\InventoryManagement.Application.Contracts\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

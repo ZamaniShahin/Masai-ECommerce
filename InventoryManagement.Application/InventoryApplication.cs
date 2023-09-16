@@ -41,27 +41,49 @@ namespace InventoryManagement.Application
 
         public OperationResult Increase(IncreaseInventory command)
         {
-            throw new NotImplementedException();
+            var operation = new OperationResult();
+            var inventory = _inventoryRepository.Get(command.InventoryId);
+            if (inventory == null)
+                return operation.Failed(ApplicationMessages.RecordNotFound);
+            const long operatorId = 1;
+            inventory.Increase(command.Count,operatorId,command.Description);
+            _inventoryRepository.SaveChanges();
+            return operation.Succeeded();
         }
 
         public OperationResult Reduce(ReduceInventory command)
         {
-            throw new NotImplementedException();
+            var operation = new OperationResult();
+            var inventory = _inventoryRepository.Get(command.InventoryId);
+            if (inventory == null)
+                return operation.Failed(ApplicationMessages.RecordNotFound);
+            const long operatorId = 1;
+            inventory.Reduce(command.Count, operatorId, command.Description,0);
+            _inventoryRepository.SaveChanges();
+            return operation.Succeeded();
         }
 
         public OperationResult Reduce(List<ReduceInventory> command)
         {
-            throw new NotImplementedException();
+            var operation = new OperationResult();
+            const long operatorId = 1;
+            foreach (var item in command)
+            {
+                var inventory = _inventoryRepository.GetBy(item.ProductId);
+                inventory.Reduce(item.Count,operatorId,item.Description,item.OrderId);
+            }
+            _inventoryRepository.SaveChanges();
+            return operation.Succeeded();
         }
 
         public EditInventory GetDetails(long id)
         {
-            throw new NotImplementedException();
+            return _inventoryRepository.GetDetails(id);
         }
 
         public List<InventoryViewModel> Search(InventorySearchModel searchModel)
         {
-            throw new NotImplementedException();
+            return _inventoryRepository.Search(searchModel);
         }
     }
 }
