@@ -101,9 +101,11 @@ namespace _0_Framework.Application
             return new DateTime(year, month, day, new PersianCalendar());
         }
 
-        public static string ToMoney(this double myMoney)
+        public static string ToMoney(this string myMoney)
         {
-            return myMoney.ToString("N0", CultureInfo.CreateSpecificCulture("fa-ir"));
+            var number = int.Parse(myMoney);
+            var result = number.ToString("N0", CultureInfo.CreateSpecificCulture("fa-ir"));
+            return result;
         }
 
         public static string ToFileName(this DateTime date)

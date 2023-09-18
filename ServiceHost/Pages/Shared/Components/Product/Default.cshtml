@@ -11,25 +11,29 @@
                 </h3>
             </header>
             <div class="product-carousel owl-carousel owl-theme">
-                @foreach (var item in Model)
+                @foreach (var category in Model)
                 {
-                    <div class="item">
-                        <a href="#">
-                            <img src="@item.Picture" class="img-fluid"
-                                 alt="@item.PictureAlt" title="@item.PictureTitle"
-                                 id="product-tab-@item.Id">
-                        </a>
-                        <h2 class="product_title">
-                            <a href="#">@item.Name</a>
-                        </h2>
-                        <div class="price">
-                            <del><span>13,159,000<span>تومان</span></span></del>
-                            <span class="discount_badge">5%</span>
+                    @foreach (var product in category.Products)
+                    {
+                        <div class="item">
+                            <a href="#">
+                                <img src="@product.Picture" class="img-fluid"
+                                     alt="@product.PictureAlt" title="@product.PictureTitle"
+                                     id="product-tab-@product.Id">
+                            </a>
+                            <h2 class="product_title">
+                                <a href="#">@product.Name</a>
+                            </h2>
+                            <div class="price">
+                                <del><span>@product.<span>تومان</span></span></del>
+                                <span class="discount_badge">5%</span>
 
-                            <ins><span>12,000,000<span>تومان</span></span></ins>
+                                <ins><span>@product.Price<span>تومان</span></span></ins>
+                            </div>
                         </div>
-                    </div>
+                    }
                 }
+                
                 <div class="item">
                     <a href="#">
                         <img src="~/Theme/img/product_img/p_9.jpg" class="img-fluid" alt="">
