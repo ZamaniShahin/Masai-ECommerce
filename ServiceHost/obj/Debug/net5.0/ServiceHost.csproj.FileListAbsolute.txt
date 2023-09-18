@@ -391,3 +391,4 @@ E:\SourceCodes\@Masai-ECommerce\ServiceHost\bin\Debug\net5.0\InventoryManagement
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Increase.cshtml.g.cs
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\Reduce.cshtml.g.cs
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Inventory\OperationLog.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Product\Default.cshtml.g.cs
