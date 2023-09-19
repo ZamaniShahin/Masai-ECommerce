@@ -18,8 +18,6 @@ namespace ServiceHost.ViewComponents
         public IViewComponentResult Invoke()
         {
             var categories = _productCategoryQuery.GetProducts();
-            categories = categories.OrderByDescending(x => x.Id).Take(3).ToList();
-
             return View(categories);
         }
     }
