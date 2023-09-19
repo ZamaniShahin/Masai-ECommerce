@@ -1,4 +1,7 @@
-﻿using _01_MasaiQuery.Contracts.ProductCategory;
+﻿using System.Collections.Generic;
+using System.Linq;
+using _01_MasaiQuery.Contracts.Product;
+using _01_MasaiQuery.Contracts.ProductCategory;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ServiceHost.ViewComponents
@@ -14,7 +17,9 @@ namespace ServiceHost.ViewComponents
 
         public IViewComponentResult Invoke()
         {
-            var categories = _productCategoryQuery.GetProductCategories();
+            var categories = _productCategoryQuery.GetProducts();
+            categories = categories.OrderByDescending(x => x.Id).Take(3).ToList();
+
             return View(categories);
         }
     }

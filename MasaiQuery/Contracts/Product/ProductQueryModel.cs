@@ -11,5 +11,6 @@
         public string Price { get; set; }
         public string PriceWithDiscount { get; set; }
         public int DiscountRate { get; set; }
+        public bool HasDiscount { get; set; }
     }
 }

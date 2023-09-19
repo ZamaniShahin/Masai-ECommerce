@@ -103,6 +103,10 @@ namespace _0_Framework.Application
 
         public static string ToMoney(this string myMoney)
         {
+            if (string.IsNullOrWhiteSpace(myMoney))
+            {
+                return "";
+            }
             var number = int.Parse(myMoney);
             var result = number.ToString("N0", CultureInfo.CreateSpecificCulture("fa-ir"));
             return result;
