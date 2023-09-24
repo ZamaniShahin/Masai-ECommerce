@@ -12,5 +12,6 @@
         public string PriceWithDiscount { get; set; }
         public int DiscountRate { get; set; }
         public bool HasDiscount { get; set; }
+        public string DiscountExpireDate { get; set; }
     }
 }

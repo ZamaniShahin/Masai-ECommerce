@@ -1470,6 +1470,20 @@ font-size: 22px;
     border-radius: 15px;
     color: #000;border: 1px solid #979898;font-weight:100;
 }
+.number_coountdown_product_category{
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 13px;
+    width: 27px;
+    height: 30px;
+    background-color: hsla(0, 0%, 100%, 0.10);
+    border-radius: 10px;
+    color: #000;
+    border: 1px solid #979898;
+    font-weight:100;
+}
+
 #shegeft_1 .countdown-timer {
     position: absolute;
     left: 0;
@@ -1478,6 +1492,16 @@ font-size: 22px;
     font-size: 20px;
     display: inline-block;
     padding: 5px 40px;
+    border-radius: 53px;
+}
+.countdown-timer-product-category{
+    position: absolute;
+    right: -30px;
+    top: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    padding: 3px 40px;
     border-radius: 53px;
 }
 .text_countdown{

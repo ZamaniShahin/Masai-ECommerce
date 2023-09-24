@@ -30,12 +30,11 @@ namespace _01_MasaiQuery.Query
             var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice }).ToList();
             var discounts = _discountContext.CustomerDiscounts
                 .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
-                .Select(x => new { x.DiscountRate, x.ProductId }).ToList();
+                .Select(x => new { x.DiscountRate, x.ProductId, x.EndDate }).ToList();
 
             var category = _context.ProductCategories
                 .Include(x => x.Products)
                 .ThenInclude(x => x.Category)
-                //.Where(x => x.Slug == slug)
                 .Select(x => new ProductCategoryQueryModel
                 {
                     Id = x.Id,
@@ -43,31 +42,28 @@ namespace _01_MasaiQuery.Query
                     Description = x.Description,
                     KeyWords = x.Keywords,
                     MetaDescription = x.MetaDescription,
+                    Slug = x.Slug,
                     Products = MapProducts(x.Products)
-                }).FirstOrDefault();
+                }).FirstOrDefault(z => z.Slug == slug);
 
-            if (category.Products == null)
+            foreach (var product in category.Products)
             {
-
-            }
-            else
-            {
-                foreach (var product in category.Products)
+                var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
+                if (productInventory != null)
                 {
                     var price = inventory
                         .FirstOrDefault(x => x.ProductId == product.Id)?.UnitPrice;
                     product.Price = price.ToString().ToMoney();
-
-                    var discountRate = discounts.FirstOrDefault(x => x.ProductId == product.Id)?
-                        .DiscountRate;
-                    product.DiscountRate = Convert.ToInt32(discountRate);
-                    product.HasDiscount = discountRate > 0;
-                    if (discountRate == null)
+                    var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
+                    if (discount != null)
                     {
-                        discountRate = 0;
+                        int discountRate = discount.DiscountRate;
+                        product.DiscountRate = discountRate;
+                        product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
+                        product.HasDiscount = discountRate > 0;
+                        var discountAmount = Math.Round((double)((price * discountRate) / 100));
+                        product.PriceWithDiscount = (price - discountAmount).ToString().ToMoney();
                     }
-                    var discountAmount = Math.Round((double)((price * discountRate) / 100));
-                    product.PriceWithDiscount = (price - discountAmount).ToString().ToMoney();
                 }
             }
 

@@ -1170,4 +1170,6 @@ button:focus{
         outline:none; 
   
 }
- 
+.product-category-title {
+    font-size: 20px
+}
