@@ -23,54 +23,19 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="row">
-                                    <div class="col-6 col-md-2 contact-bigicon">
-                                        <a href="#" target="_blank">
-                                            <img class="img-responsive imgpad"
-                                                 src="~/Theme/img/Masai/bigicon/img-1.png"
-                                                 alt="" />
-                                            <b class="title-3 light-black">کالای دیجیتال</b>
-                                        </a>
-                                    </div>
-                                    <div class="col-6 col-md-2 contact-bigicon">
-                                        <a href="#" target="_top">
-                                            <img class="img-responsive imgpad"
-                                                 src="~/Theme/img/Masai/bigicon/img-2.png"
-                                                 alt="" />
-                                            <b class="title-3 light-black">مودم</b>
-                                        </a>
-                                    </div>
-                                    <div class="col-6 col-md-2 contact-bigicon">
-                                        <a href="#" target="_blank">
-                                            <img class="img-responsive imgpad"
-                                                 src="~/Theme/img/Masai/bigicon/img-3.png"
-                                                 alt="" />
-                                            <b class="title-3 light-black">تبلت</b>
-                                        </a>
-                                    </div>
-                                    <div class="col-6 col-md-2 contact-bigicon">
-                                        <a href="#" target="_top">
-                                            <img class="img-responsive imgpad"
-                                                 src="~/Theme/img/Masai/bigicon/img-4.png"
-                                                 alt="" />
-                                            <b class="title-3 light-black">ماوس</b>
-                                        </a>
-                                    </div>
-                                    <div class="col-6 col-md-2 contact-bigicon">
-                                        <a href="#" target="_top">
-                                            <img class="img-responsive imgpad"
-                                                 src="~/Theme/img/Masai/bigicon/img-5.png"
-                                                 alt="" />
-                                            <b class="title-3 light-black">هندزفری</b>
-                                        </a>
-                                    </div>
-                                    <div class="col-6 col-md-2 contact-bigicon">
-                                        <a href="#" target="_top">
-                                            <img class="img-responsive imgpad"
-                                                 src="~/Theme/img/Masai/bigicon/img-6.png"
-                                                 alt="" />
-                                            <b class="title-3 light-black">ساعت هوشمند</b>
-                                        </a>
-                                    </div>
+                                    @foreach (var category in Model.ProductCategories)
+                                    {
+                                        <div class="col-6 col-md-2 contact-bigicon">
+                                            <a asp-page="/ProductCategory" asp-route-id="@category.Slug" target="_blank">
+                                                <img class="img-responsive imgpad"
+                                                     src = "@category.Picture"
+                                                     alt="@category.PictureAlt"
+                                                     title="@category.PictureTitle"/>
+                                                <b class="title-3 light-black">@category.Name</b>
+                                            </a>
+                                        </div>
+                                    }
+                                    
                                 </div>
                             </div>
                         </div>
