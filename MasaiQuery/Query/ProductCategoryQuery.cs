@@ -25,6 +25,55 @@ namespace _01_MasaiQuery.Query
             _discountContext = discountContext;
         }
 
+        public ProductCategoryQueryModel GetProductCategoryWithProductsBy(string slug)
+        {
+            var inventory = _inventoryContext.Inventory.Select(x => new { x.ProductId, x.UnitPrice }).ToList();
+            var discounts = _discountContext.CustomerDiscounts
+                .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+                .Select(x => new { x.DiscountRate, x.ProductId }).ToList();
+
+            var category = _context.ProductCategories
+                .Include(x => x.Products)
+                .ThenInclude(x => x.Category)
+                //.Where(x => x.Slug == slug)
+                .Select(x => new ProductCategoryQueryModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Description = x.Description,
+                    KeyWords = x.Keywords,
+                    MetaDescription = x.MetaDescription,
+                    Products = MapProducts(x.Products)
+                }).FirstOrDefault();
+
+            if (category.Products == null)
+            {
+
+            }
+            else
+            {
+                foreach (var product in category.Products)
+                {
+                    var price = inventory
+                        .FirstOrDefault(x => x.ProductId == product.Id)?.UnitPrice;
+                    product.Price = price.ToString().ToMoney();
+
+                    var discountRate = discounts.FirstOrDefault(x => x.ProductId == product.Id)?
+                        .DiscountRate;
+                    product.DiscountRate = Convert.ToInt32(discountRate);
+                    product.HasDiscount = discountRate > 0;
+                    if (discountRate == null)
+                    {
+                        discountRate = 0;
+                    }
+                    var discountAmount = Math.Round((double)((price * discountRate) / 100));
+                    product.PriceWithDiscount = (price - discountAmount).ToString().ToMoney();
+                }
+            }
+
+            return category;
+        }
+
         public List<ProductCategoryQueryModel> GetProductCategories()
         {
             return _context.ProductCategories.Select(x => new ProductCategoryQueryModel
