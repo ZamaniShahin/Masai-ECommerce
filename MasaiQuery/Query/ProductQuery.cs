@@ -49,10 +49,9 @@ namespace _01_MasaiQuery.Query
                 }).AsNoTracking();
 
             if (!string.IsNullOrWhiteSpace(value))
-                query = query.Where(x => x.Name.Contains(value) || x.ShortDescription.Contains(value));
+                query = query.Where(x => x.Name.Contains(value));
 
             var products = query.OrderByDescending(x => x.Id).ToList();
-            ;
 
             foreach (var product in products)
             {
