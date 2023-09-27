@@ -42,8 +42,8 @@
                     </div>
                     <div class="col-lg-8 col-md-5 col-sm-8 col-7">
                         <div class="search-area default">
-                            <form action="#" class="search">
-                                <input type="text" placeholder="جستجو" />
+                            <form method="get" asp-page="/Search" class="search">
+                                <input type="search" placeholder="جستجو" name="value" id="value" />
                                 <button type="submit">
                                     <img src="~/Theme/img/search.png" alt="" />
                                 </button>

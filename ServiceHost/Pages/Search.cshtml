@@ -1,0 +1,129 @@
+﻿@page
+@model ServiceHost.Pages.SearchModel
+@{
+    ViewData["Title"] = "نتیجه ی جستجو";
+}
+@section CSS{
+    <link href="~/Theme/css/nouislider.min.css" rel="stylesheet" />
+    <link href="~/Theme/css/main.css" rel="stylesheet" />
+}
+@section JS{
+    <link href="~/Theme/js/nouislider.min.js" rel="stylesheet" />
+}
+<div class="wrapper default">
+    <!-- main -->
+    <main class="search-page default space-top-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 hidden-xs">
+                    <div class="brand-slider card border_all">
+                        <header class="card-header">
+                            <h3 class="card-title"><span>دسته بندی ها</span></h3>
+                        </header>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    @foreach (var category in Model.ProductCategories)
+                                    {
+                                        <div class="col-6 col-md-2 contact-bigicon">
+                                            <a asp-page="/ProductCategory" asp-route-id="@category.Slug" target="_blank">
+                                                <img class="img-responsive imgpad"
+                                                     src = "@category.Picture"
+                                                     alt="@category.PictureAlt"
+                                                     title="@category.PictureTitle"/>
+                                                <b class="title-3 light-black">@category.Name</b>
+                                            </a>
+                                        </div>
+                                    }
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="listing default">
+                        <div class="tab-content default text-center">
+                            <div class="text-center text--bold">نتایج جستجو برای @Model.Value</div>
+                            <div class="row listing-items">
+                                @foreach (var product in Model.Products)
+                                {
+                                    <div class="col-xl-3 col-lg-3 col-md-4 col-12 list_search_p">
+                                        <div class="product-box">
+                                            @if (product.HasDiscount)
+                                            {
+                                                <div class="product-seller-details product-seller-details-item-grid">
+                                                    <div class="countdown-timer-product-category"
+                                                         countdown
+                                                         data-date="@product.DiscountExpireDate">
+                                                        <ul class="text_countdown">
+                                                            <li data-days
+                                                                class="number_countdown number_countdown_product_category">
+                                                                0
+                                                            </li>
+                                                            <li>روز</li>
+                                                        </ul>
+                                                        <ul class="text_countdown">
+                                                            <li data-hours
+                                                                class="number_countdown number_countdown_product_category">
+                                                                0
+                                                            </li>
+                                                            <li>ساعت</li>
+                                                        </ul>
+                                                        <ul class="text_countdown">
+                                                            <li data-minutes
+                                                                class="number_countdown number_countdown_product_category">
+                                                                0
+                                                            </li>
+                                                            <li>دقیقه</li>
+                                                        </ul>
+                                                        <ul class="text_countdown">
+                                                            <li data-seconds
+                                                                class="number_countdown number_countdown_product_category">
+                                                                0
+                                                            </li>
+                                                            <li>ثانیه</li>
+                                                        </ul>
+                                                    </div>
+                                                    <span class="search_prod_btn">
+                                                        <i class="fa fa fa-cart-arrow-down search_icon_cart"
+                                                           aria-hidden="true"></i>
+                                                    </span>
+                                                </div>
+                                            }
+                                            <a class="product-box-img" href="single-product.html">
+                                                <img src="~/Theme/img/product_img/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle"/>
+                                            </a>
+                                            <div class="product-box-content">
+                                                <div class="product-box-content-row">
+                                                    <div class="product_title">
+                                                        <a href="#">@product.Name</a>
+                                                    </div>
+                                                </div>
+                                                <div class="product-box-row product_price_search">
+                                                    <div class="price">
+                                                        @if (product.HasDiscount)
+                                                        {
+                                                            <del><span>@product.Price<span>تومان</span></span></del>
+                                                            <span class="discount_badge">@product.DiscountRate%</span>
+                                                            <ins><span>@product.PriceWithDiscount<span>تومان</span></span></ins>
+                                                        }
+                                                        else
+                                                        {
+                                                            <span>@product.Price<span>تومان</span></span>
+                                                        }
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
