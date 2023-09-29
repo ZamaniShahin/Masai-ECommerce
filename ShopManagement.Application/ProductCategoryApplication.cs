@@ -17,10 +17,10 @@ namespace ShopManagement.Application
         public OperationResult Create(CreateProductCategory command)
         {
             var operation = new OperationResult();
-            if (_productCategoryRepository.Exists(x=>x.Name == command.Name))
+            if (_productCategoryRepository.Exists(x => x.Name == command.Name))
                 return operation.Failed(ApplicationMessages.RecordNotFound);
             var slug = command.Slug.Slugify();
-            var productCategory = new ProductCategory(command.Name, command.Description, command.Picture,
+            var productCategory = new ProductCategory(command.Name, command.Description, "",
                 command.PictureAlt,
                 command.PictureTitle, command.Keywords, command.MetaDescription, slug);
             _productCategoryRepository.Create(productCategory);
@@ -37,14 +37,14 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             }
 
-            if (_productCategoryRepository.Exists(x=>x.Name == command.Name && x.Id != command.Id))
+            if (_productCategoryRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
             {
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             }
 
             var slug = command.Slug.Slugify();
-            productCategory.Edit(command.Name,command.Description,command.Picture,command.PictureAlt,command.PictureTitle,
-                command.Keywords,command.MetaDescription,slug);
+            productCategory.Edit(command.Name, command.Description, "", command.PictureAlt, command.PictureTitle,
+                command.Keywords, command.MetaDescription, slug);
             _productCategoryRepository.SaveChanges();
             return operation.Succeeded();
         }
@@ -63,6 +63,6 @@ namespace ShopManagement.Application
         {
             return _productCategoryRepository.Search(searchModel);
         }
-        
+
     }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nWkxOkapC5OxT4nbuGY7kaYju82T9MneP78Ylg+QqEE9x1kuUIKRAOxQNqq1Q8HUVOq8BNU83YRY24wt5DcPOQ==",
+  "dgSpecHash": "WFwrRddPG659zQf36C+3n3ZReunu4wGRuXBi4uOvOmEKvUFtUOImwdfyrdi2VgD+4N+2sgt7b9XWXoZPpyZn8w==",
   "success": true,
   "projectFilePath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.9\\microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.9\\microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.9\\microsoft.entityframeworkcore.analyzers.5.0.9.nupkg.sha512",
