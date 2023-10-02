@@ -196,6 +196,19 @@ jQuery.validator.addMethod("maxFileSize",
     });
 jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
 
+jQuery.validator.addMethod("fileExtensionLimit", function (value, element, params) {
+    var allowedExtensions = ["jpg", "jpeg", "png"];
+    var fileExtension = value.split('.').pop().toLowerCase();
+
+    if (allowedExtensions.indexOf(fileExtension) === -1) {
+        return false;
+    } else {
+        return true;
+    }
+});
+
+jQuery.validator.unobtrusive.adapters.addBool("fileExtensionLimit");
+
 //jQuery.validator.addMethod("maxFileSize",
 //    function (value, element, params) {
 //        var size = element.files[0].size;

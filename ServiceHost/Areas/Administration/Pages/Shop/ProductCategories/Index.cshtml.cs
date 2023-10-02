@@ -39,6 +39,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 
         public JsonResult OnPostEdit(EditProductCategory command)
         {
+
             var result = _productCategoryApplication.Edit(command);
             return new JsonResult(result);
         }
