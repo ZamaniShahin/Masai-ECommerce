@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
-using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 
@@ -17,6 +15,18 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         public ProductCategoryRepository(ShopContext shopContext) : base(shopContext)
         {
             _context = shopContext;
+        }
+
+        public string GetSlugById(long id)
+        {
+            var result = _context.ProductCategories
+                .Select(x => new { x.Id, x.Slug })
+                .FirstOrDefault(x => x.Id == id).Slug;
+            if (string.IsNullOrWhiteSpace(result))
+            {
+                result = DateTime.Now.ToFileName() + "-" + "Default";
+            }
+            return result;
         }
 
         public List<ProductCategoryViewModel> GetProductCategories()
