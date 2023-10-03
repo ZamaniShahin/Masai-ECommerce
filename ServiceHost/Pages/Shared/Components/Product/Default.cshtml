@@ -1,6 +1,6 @@
 ﻿@model List<_01_MasaiQuery.Contracts.ProductCategory.ProductCategoryQueryModel>
 @{
-    int flag;
+
 }
 
 <!-- ? Start Products -->
@@ -21,12 +21,11 @@
                     }
                     else
                     {
-                        flag = 0;
                         @foreach (var product in category.Products)
                         {
                             <div class="item">
                                 <a href="#">
-                                    <img src="~/Theme/img/product_img/@product.Picture" class="img-fluid"
+                                    <img src="~/ProductPictures/@product.Picture" class="img-fluid"
                                          alt="@product.PictureAlt" title="@product.PictureTitle"
                                          id="product-tab-@product.Id">
                                 </a>
@@ -48,7 +47,6 @@
 
                                 </div>
                             </div>
-                            flag++;
                         }
                     }
                 }
