@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id}"
 @model ServiceHost.Pages.ProductCategoryModel
 @{
     ViewData["Title"] = "محصولات";
@@ -232,13 +232,13 @@
                                                     </span>
                                                 </div>
                                             }
-                                            <a class="product-box-img" href="single-product.html">
+                                            <a class="product-box-img" asp-for="/Product" asp-route-id="@product.Slug">
                                                 <img src="~/Theme/img/product_img/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle"/>
                                             </a>
                                             <div class="product-box-content">
                                                 <div class="product-box-content-row">
                                                     <div class="product_title">
-                                                        <a href="#">@product.Name</a>
+                                                        <a asp-for="/Product" asp-route-id="@product.Slug">@product.Name</a>
                                                     </div>
                                                 </div>
                                                 <div class="product-box-row product_price_search">

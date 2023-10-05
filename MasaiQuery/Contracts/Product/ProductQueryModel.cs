@@ -1,4 +1,6 @@
-﻿namespace _01_MasaiQuery.Contracts.Product
+﻿using System.Collections.Generic;
+
+namespace _01_MasaiQuery.Contracts.Product
 {
     public class ProductQueryModel
     {
@@ -21,6 +23,16 @@
         public string Description { get; set; }
         public string Keywords { get; set; }
         public string MetaDescription { get; set; }
-        public bool IsInStock { get; set; }
+        public bool IsStock { get; set; }
+        public List<ProductPictureQueryModel> Pictures { get; set; }
+    }
+
+    public class ProductPictureQueryModel
+    {
+        public long PictureId { get; set; }
+        public string Picture { get; set; }
+        public string PictureTitle { get; set; }
+        public string PictureAlt { get; set; }
+        public bool IsRemoved { get; set; }
     }
 }

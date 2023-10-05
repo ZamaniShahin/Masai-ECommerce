@@ -1,0 +1,196 @@
+﻿@page "{id}"
+@model ServiceHost.Pages.ProductModel
+@{
+    ViewData["Title"] = "صفحه محصول";
+}
+<!-- main -->
+<main class="single-product default">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <article class="product">
+                    <div class="row product_main_details">
+                        <div class="col-lg-5 col-md-6 col-sm-12">
+                            <div class="product-gallery default">
+                                <img class="main_img_gallery" src="~/ProductPictures/@Model.Product.Picture" alt="@Model.Product.PictureAlt" title="@Model.Product.PictureTitle" />
+                                <section class="testimonial py-3" id="testimonial">
+                                    <div class="container">
+                                        <div class="row gallery">
+                                            @foreach (var picture in Model.Product.Pictures)
+                                            {
+                                                <div class="col-4 col-md-3 pd">
+                                                    <a href="~/ProductPictures/@picture.Picture">
+                                                        <img src="~/ProductPictures/@picture.Picture" class="img-thumb" alt="@picture.Picture" title="@picture.PictureTitle" />
+                                                    </a>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- Modal Core -->
+                            <div class="modal-share modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h4 class="modal-title" id="myModalLabel">به اشتراک گذاشتن</h4>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <form class="default">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p>
+                                                            برای کپی آدرس در کادر زیر دابل کلیک کنید
+                                                        </p>
+                                                        <p class="right-side-header shareurlvalue" title="کپی بعد دوبار کلیک" id="text" onclick="copyElementText(this.id)">http://www.mysite.com/single-product.html</p>
+
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Core -->
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-sm-12 ">
+
+
+                            <h2 class="product-title ">
+                                <a href="#">@Model.Product.Name</a>
+                            </h2>
+                            <hr class="hr-text" data-content="دو سیم‌ کارت ظرفیت 1 ترابایت و 6 گیگابایت رم ">
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list-group space-15">
+                                        <li class="list-group-item">رنگ: مشکی</li>
+                                        <li class="list-group-item">بلوتوث:دارد</li>
+                                        <li class="list-group-item"> رزولوشن عکس : 12 مگاپیکسل</li>
+                                        <li class="list-group-item"> اندازه  : 6.1</li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-group space-15">
+                                        <li class="list-group-item">قابلیت : ضد آب</li>
+                                        <li class="list-group-item"> نوع گوشی : دو گوشی</li>
+                                        <li class="list-group-item"> سیستم عامل : iOS 15</li>
+                                        <li class="list-group-item"> فناوری  : Super Retina XDR OLED</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 product_main_pr">
+
+                                    <div class="time_pr">
+
+
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 col-md-6 border_left" style="margin: 0 auto; padding: 0 auto;">
+                                                <div class="price space-15">
+                                                    @if (Model.Product.HasDiscount)
+                                                    {
+                                                        <del><span>@Model.Product.Price<span>تومان</span></span></del>
+                                                        <ins><span>@Model.Product.PriceWithDiscount<span>تومان</span></span></ins>
+                                                    }
+                                                    else
+                                                    {
+                                                        <ins><span>@Model.Product.Price<span>تومان</span></span></ins>
+                                                    }
+
+                                                </div>
+                                                <div class="col-12 timer-title text--center">
+
+                                                    <a href="#" class="btn btn-main-masai big_btn">افزودن به سبد</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 default no-padding bg_single_product">
+                    <div class="product-tabs default">
+                        <div class="box-tabs default">
+                            <ul class="nav" role="tablist">
+                                <li class="box-tabs-tab">
+                                    <a class="active " data-toggle="tab" href="#desc" role="tab" aria-expanded="true">
+                                        توضیحات تکمیلی
+                                    </a>
+                                </li>
+                                <li class="box-tabs-tab">
+                                    <a data-toggle="tab" href="#params" role="tab" aria-expanded="false">
+                                        مشخصات محصول
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="card-body default">
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="desc" role="tabpanel" aria-expanded="true">
+
+                                        <header class="card-header">
+                                            <h3 class="card-title"><span>بررسی تخصصی گوشی iPhone 13 Pro Max </span></h3>
+                                        </header>
+                                        <div class="parent-expert default">
+                                            <div class="content-expert">
+                                                <p>
+                                                    @Model.Product.Description
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="tab-pane params" id="params" role="tabpanel" aria-expanded="false">
+                                        <header class="card-header">
+                                            <h3 class="card-title"><span>بررسی تخصصی گوشی iPhone 13 Pro Max </span></h3>
+                                        </header>
+
+                                        <div class="col-12">
+                                            <ul class="list-group ">
+                                                <li class="list-group-item">رنگ: مشکی</li>
+                                                <li class="list-group-item">بلوتوث:دارد</li>
+                                                <li class="list-group-item"> رزولوشن عکس : 12 مگاپیکسل</li>
+                                                <li class="list-group-item"> اندازه  : 6.1</li>
+
+                                                <li class="list-group-item">قابلیت : ضد آب</li>
+                                                <li class="list-group-item"> نوع گوشی : دو گوشی</li>
+                                                <li class="list-group-item"> سیستم عامل : iOS 15</li>
+                                                <li class="list-group-item"> فناوری  : Super Retina XDR OLED</li>
+
+
+                                            </ul>
+
+
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- main -->

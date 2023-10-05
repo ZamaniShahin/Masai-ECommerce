@@ -24,13 +24,13 @@
                         @foreach (var product in category.Products)
                         {
                             <div class="item">
-                                <a href="#">
+                                <a asp-for="/Product" asp-route-id="@product.Slug">
                                     <img src="~/ProductPictures/@product.Picture" class="img-fluid"
                                          alt="@product.PictureAlt" title="@product.PictureTitle"
                                          id="product-tab-@product.Id">
                                 </a>
                                 <h2 class="product_title">
-                                    <a href="#">@product.Name</a>
+                                    <a asp-for="/Product" asp-route-id="@product.Slug">@product.Name</a>
                                 </h2>
                                 <div class="price">
                                     @if (product.HasDiscount)
