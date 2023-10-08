@@ -45,12 +45,8 @@ namespace _01_MasaiQuery.Query
                     Picture = product.Picture,
                     PictureAlt = product.PictureAlt,
                     PictureTitle = product.PictureTitle,
-                    ShortDescription = product.ShortDescription,
                     Slug = product.Slug,
-                    Code = product.Code,
                     Description = product.Description,
-                    Keywords = product.Keywords,
-                    MetaDescription = product.MetaDescription,
                     Pictures = MapProductPictures(product.ProductPictures),
                 }).FirstOrDefault(x => x.Slug == slug);
 
@@ -110,7 +106,6 @@ namespace _01_MasaiQuery.Query
                     Picture = product.Picture,
                     PictureAlt = product.PictureAlt,
                     PictureTitle = product.PictureTitle,
-                    ShortDescription = product.ShortDescription,
                     Slug = product.Slug
                 }).AsNoTracking();
 
