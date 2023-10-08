@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using _0_Framework.Application;
 using _01_MasaiQuery.Contracts.Product;
-using _01_MasaiQuery.Contracts.ProductCategory;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
-using Newtonsoft.Json.Linq;
-using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 

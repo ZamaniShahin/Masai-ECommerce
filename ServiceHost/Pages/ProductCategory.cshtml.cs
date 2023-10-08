@@ -1,7 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
 using _01_MasaiQuery.Contracts.ProductCategory;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ServiceHost.Pages

@@ -17,28 +17,7 @@
             <div class="row">
                 <div class="col-12 hidden-xs">
                     <div class="brand-slider card border_all">
-                        <header class="card-header">
-                            <h3 class="card-title"><span>دسته بندی ها</span></h3>
-                        </header>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="row">
-                                    @foreach (var category in Model.ProductCategories)
-                                    {
-                                        <div class="col-6 col-md-2 contact-bigicon">
-                                            <a asp-page="/ProductCategory" asp-route-id="@category.Slug" target="_blank">
-                                                <img class="img-responsive imgpad"
-                                                     src = "@category.Picture"
-                                                     alt="@category.PictureAlt"
-                                                     title="@category.PictureTitle"/>
-                                                <b class="title-3 light-black">@category.Name</b>
-                                            </a>
-                                        </div>
-                                    }
-                                    
-                                </div>
-                            </div>
-                        </div>
+                        @await Component.InvokeAsync("ProductCategory")
                     </div>
                 </div>
                 <!-- <aside class="sidebar-page col-12 col-sm-12 col-md-4 col-lg-3">
@@ -232,13 +211,13 @@
                                                     </span>
                                                 </div>
                                             }
-                                            <a class="product-box-img" asp-for="/Product" asp-route-id="@product.Slug">
-                                                <img src="~/Theme/img/product_img/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle"/>
+                                            <a class="product-box-img" asp-page="/Product" asp-route-id="@product.Slug">
+                                                <img src="~/ProductPictures/@product.Picture" alt="@product.PictureAlt" title="@product.PictureTitle"/>
                                             </a>
                                             <div class="product-box-content">
                                                 <div class="product-box-content-row">
                                                     <div class="product_title">
-                                                        <a asp-for="/Product" asp-route-id="@product.Slug">@product.Name</a>
+                                                        <a asp-page="/Product" asp-route-id="@product.Slug">@product.Name</a>
                                                     </div>
                                                 </div>
                                                 <div class="product-box-row product_price_search">

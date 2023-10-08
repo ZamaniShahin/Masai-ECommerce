@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\Product.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DiscountManagementConfiguration\DiscountManagementConfiguration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
@@ -28,10 +24,6 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Pages\Product.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\Product.cshtml" />
   </ItemGroup>
 
 </Project>
