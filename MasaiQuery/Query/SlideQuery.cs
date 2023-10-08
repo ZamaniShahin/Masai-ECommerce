@@ -22,11 +22,7 @@ namespace _01_MasaiQuery.Query
                     Picture = x.Picture,
                     PictureTitle = x.PictureTitle,
                     PictureAlt = x.PictureAlt,
-                    BtnText = x.BtnText,
-                    Heading = x.Heading,
                     Link = x.Link,
-                    Text = x.Text,
-                    Title = x.Title,
                 }).ToList();
         }
     }
