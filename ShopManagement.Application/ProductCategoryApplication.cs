@@ -8,18 +8,18 @@ namespace ShopManagement.Application
     public class ProductCategoryApplication : IProductCategoryApplication
     {
         private readonly IFileUploader _fileUploader;
-        private readonly IProductCategoryRepository _productCategoryRepostory;
+        private readonly IProductCategoryRepository _productCategoryRepository;
 
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepostory, IFileUploader fileUploader)
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUploader fileUploader)
         {
             _fileUploader = fileUploader;
-            _productCategoryRepostory = productCategoryRepostory;
+            _productCategoryRepository = productCategoryRepository;
         }
 
         public OperationResult Create(CreateProductCategory command)
         {
             var operation = new OperationResult();
-            if (_productCategoryRepostory.Exists(x => x.Name == command.Name))
+            if (_productCategoryRepository.Exists(x => x.Name == command.Name))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
@@ -28,23 +28,22 @@ namespace ShopManagement.Application
             var pictureName = _fileUploader.Upload(command.Picture, picturePath);
 
             var productCategory = new ProductCategory(command.Name, command.Description,
-                pictureName, command.PictureAlt, command.PictureTitle, command.Keywords,
-                command.MetaDescription, slug);
+                pictureName, command.PictureAlt, command.PictureTitle, slug);
 
-            _productCategoryRepostory.Create(productCategory);
-            _productCategoryRepostory.SaveChanges();
+            _productCategoryRepository.Create(productCategory);
+            _productCategoryRepository.SaveChanges();
             return operation.Succeeded();
         }
 
         public OperationResult Edit(EditProductCategory command)
         {
             var operation = new OperationResult();
-            var productCategory = _productCategoryRepostory.Get(command.Id);
+            var productCategory = _productCategoryRepository.Get(command.Id);
 
             if (productCategory == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);
 
-            if (_productCategoryRepostory.Exists(x => x.Name == command.Name && x.Id != command.Id))
+            if (_productCategoryRepository.Exists(x => x.Name == command.Name && x.Id != command.Id))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
@@ -53,26 +52,25 @@ namespace ShopManagement.Application
             var fileName = _fileUploader.Upload(command.Picture, picturePath);
 
             productCategory.Edit(command.Name, command.Description, fileName,
-                command.PictureAlt, command.PictureTitle, command.Keywords,
-                command.MetaDescription, slug);
+                command.PictureAlt, command.PictureTitle ,slug);
 
-            _productCategoryRepostory.SaveChanges();
+            _productCategoryRepository.SaveChanges();
             return operation.Succeeded();
         }
 
         public EditProductCategory GetDetails(long id)
         {
-            return _productCategoryRepostory.GetDetails(id);
+            return _productCategoryRepository.GetDetails(id);
         }
 
         public List<ProductCategoryViewModel> GetProductCategories()
         {
-            return _productCategoryRepostory.GetProductCategories();
+            return _productCategoryRepository.GetProductCategories();
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
-            return _productCategoryRepostory.Search(searchModel);
+            return _productCategoryRepository.Search(searchModel);
         }
     }
 }

@@ -11,9 +11,6 @@ namespace ShopManagement.Application.Contracts.Product
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Name { get; set; }
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string Code { get; set; }
-        [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string ShortDescription { get; set; }
         public string Description { get; set; }
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         [MaxFileSize(3 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
@@ -26,10 +23,6 @@ namespace ShopManagement.Application.Contracts.Product
         public long CategoryId { get; set; }
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Slug { get; set; }
-        [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string Keywords { get; set; }
-        [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string MetaDescription { get; set; }
         public List<ProductCategoryViewModel> Categories { get; set; }
     }
 }
