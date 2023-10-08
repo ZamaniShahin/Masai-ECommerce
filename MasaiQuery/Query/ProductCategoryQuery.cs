@@ -40,8 +40,6 @@ namespace _01_MasaiQuery.Query
                     Id = x.Id,
                     Name = x.Name,
                     Description = x.Description,
-                    KeyWords = x.Keywords,
-                    MetaDescription = x.MetaDescription,
                     Slug = x.Slug,
                     Products = MapProducts(x.Products)
                 }).FirstOrDefault(z => z.Slug == slug);

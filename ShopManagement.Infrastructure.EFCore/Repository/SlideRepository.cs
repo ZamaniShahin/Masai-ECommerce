@@ -22,13 +22,9 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             return _context.Slides.Select(x => new EditSlide
             {
                 Id = x.Id,
-                BtnText = x.BtnText,
-                Heading = x.Heading,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
-                Text = x.Text,
                 Link = x.Link,
-                Title = x.Title
             }).FirstOrDefault(x => x.Id == id);
         }
 
@@ -37,9 +33,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             return _context.Slides.Select(x => new SlideViewModel
             {
                 Id = x.Id,
-                Heading = x.Heading,
                 Picture = x.Picture,
-                Title = x.Title,
                 IsRemoved = x.IsRemoved,
                 CreationDate = x.CreationDate.ToFarsi()
             }).OrderByDescending(x => x.Id).ToList();

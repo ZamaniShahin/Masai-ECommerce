@@ -23,15 +23,11 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 Name = x.Name,
-                Code = x.Code,
                 Slug = x.Slug,
                 CategoryId = x.CategoryId,
                 Description = x.Description,
-                Keywords = x.Keywords,
-                MetaDescription = x.MetaDescription,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
-                ShortDescription = x.ShortDescription,
             }).FirstOrDefault(x => x.Id == id);
         }
 
@@ -59,7 +55,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                     Name = x.Name,
                     Category = x.Category.Name,
                     CategoryId = x.CategoryId,
-                    Code = x.Code,
                     Picture = x.Picture,
                     CreationDate = x.CreationDate.ToFarsi()
                 });

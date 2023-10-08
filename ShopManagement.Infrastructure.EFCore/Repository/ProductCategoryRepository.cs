@@ -21,7 +21,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
         {
             var result = _context.ProductCategories
                 .Select(x => new { x.Id, x.Slug })
-                .FirstOrDefault(x => x.Id == id).Slug;
+                .FirstOrDefault(x => x.Id == id)?.Slug;
             if (string.IsNullOrWhiteSpace(result))
             {
                 result = DateTime.Now.ToFileName() + "-" + "Default";
@@ -44,8 +44,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 Description = x.Description,
-                Keywords = x.Keywords,
-                MetaDescription = x.MetaDescription,
                 Name = x.Name,
                 Slug = x.Slug,
                 //Picture = x.Picture,
