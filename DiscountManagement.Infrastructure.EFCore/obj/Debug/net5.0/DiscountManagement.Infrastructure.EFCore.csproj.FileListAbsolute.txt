@@ -1,8 +1,3 @@
-E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
-E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
-E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
-E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfo.cs
-E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.deps.json
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.runtimeconfig.json
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.runtimeconfig.dev.json
@@ -20,6 +15,11 @@ E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\bin\Deb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\bin\Debug\net5.0\ShopManagement.Domain.pdb
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.AssemblyReference.cache
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfoInputs.cache
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.AssemblyInfo.cs
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.csproj.CopyComplete
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Infrastructure.EFCore\obj\Debug\net5.0\refint\DiscountManagement.Infrastructure.EFCore.dll
