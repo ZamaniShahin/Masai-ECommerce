@@ -69,6 +69,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AM.Domain", "AM.Domain", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountManagement.Domain", "AccountManagement.Domain\AccountManagement.Domain.csproj", "{D2D0978D-8340-4DA6-92E9-A4E6FF7F67CB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AM.Application", "AM.Application", "{3920D7A3-24FC-4681-BB98-393882B9FB58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountManagement.Application.Contracts", "AccountManagement.Application.Contracts\AccountManagement.Application.Contracts.csproj", "{E76468FC-5FD0-4C14-91C9-53E48D7CC587}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +155,10 @@ Global
 		{D2D0978D-8340-4DA6-92E9-A4E6FF7F67CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2D0978D-8340-4DA6-92E9-A4E6FF7F67CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2D0978D-8340-4DA6-92E9-A4E6FF7F67CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76468FC-5FD0-4C14-91C9-53E48D7CC587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76468FC-5FD0-4C14-91C9-53E48D7CC587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76468FC-5FD0-4C14-91C9-53E48D7CC587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76468FC-5FD0-4C14-91C9-53E48D7CC587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +190,8 @@ Global
 		{438B2751-9552-4086-8B0D-56B978625D8A} = {41AD29B6-E945-4C65-A57A-BA76DAF2113A}
 		{A850D407-D217-452E-9AAE-BD01F9808675} = {AA62F11E-20A1-455D-B9F5-7D6771621F27}
 		{D2D0978D-8340-4DA6-92E9-A4E6FF7F67CB} = {A850D407-D217-452E-9AAE-BD01F9808675}
+		{3920D7A3-24FC-4681-BB98-393882B9FB58} = {AA62F11E-20A1-455D-B9F5-7D6771621F27}
+		{E76468FC-5FD0-4C14-91C9-53E48D7CC587} = {3920D7A3-24FC-4681-BB98-393882B9FB58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18E81872-4FDE-4E7B-9770-E6622BC06217}
