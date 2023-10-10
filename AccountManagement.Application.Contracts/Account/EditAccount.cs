@@ -1,6 +1,7 @@
-﻿namespace AccountManagement.Application.Contracts.Account;
-
-public class EditAccount : CreateAccount
+﻿namespace AccountManagement.Application.Contracts.Account
 {
-    public long Id { get; set; }
+    public class EditAccount : CreateAccount
+    {
+        public long Id { get; set; }
+    }
 }
