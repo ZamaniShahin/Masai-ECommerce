@@ -8,5 +8,5 @@ public interface IAccountApplication
     OperationResult Edit(EditAccount command);
     OperationResult ChangePassword(ChangePassword command);
     EditAccount GetDetails(long id);
-    List<AccountViewModel> Search(AccountViewModel searchModel);
+    List<AccountViewModel> Search(AccountSearchModel searchModel);
 }
