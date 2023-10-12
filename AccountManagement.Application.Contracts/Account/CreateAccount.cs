@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AccountManagement.Application.Contracts.Role;
+using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
 
 namespace AccountManagement.Application.Contracts.Account
 {
@@ -11,5 +13,6 @@ namespace AccountManagement.Application.Contracts.Account
         public string Email { get; set; }
         public long RoleId { get; set; }
         public IFormFile ProfilePhoto { get; set; }
+        public List<RoleViewModel> Roles { get; set; }
     }
 }
