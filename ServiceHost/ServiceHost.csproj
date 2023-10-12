@@ -27,4 +27,8 @@
     <_ContentIncludedByDefault Remove="Pages\Product.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Administration\Pages\Accounts - Copy\" />
+  </ItemGroup>
+
 </Project>
