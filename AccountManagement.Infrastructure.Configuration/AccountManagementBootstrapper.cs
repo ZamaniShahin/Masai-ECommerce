@@ -1,4 +1,5 @@
-﻿using AccountManagement.Application;
+﻿using _0_Framework.Application;
+using AccountManagement.Application;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
 using AccountManagement.Infrastructure.EFCore;
@@ -14,6 +15,7 @@ namespace AccountManagement.Infrastructure.Configuration
         {
             services.AddTransient<IAccountApplication, AccountApplication>();
             services.AddTransient<IAccountRepository, AccountRepository>();
+            services.AddTransient<IPasswordHasher, PasswordHasher>();
 
 
             services.AddDbContext<AccountContext>(x => x.UseSqlServer(connectionString));
