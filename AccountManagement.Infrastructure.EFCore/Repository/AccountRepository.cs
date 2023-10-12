@@ -1,4 +1,5 @@
-﻿using _0_Framework.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domain.AccountAgg;
 using System.Collections.Generic;
@@ -35,8 +36,10 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
                 Mobile = x.Mobile,
                 ProfilePhoto = x.ProfilePhoto,
                 Role = "مدیر سیستم",
+                Email = x.Email,
                 RoleId = 2,
-                UserName = x.UserName
+                UserName = x.UserName,
+                CreationDate = x.CreationDate.ToFarsi()
             });
             if (!string.IsNullOrWhiteSpace(searchModel.FullName))
                 query = query.Where(x => x.FullName.Contains(searchModel.FullName));
@@ -46,7 +49,7 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
                 query = query.Where(x => x.FullName.Contains(searchModel.Mobile));
             if (searchModel.RoleId > 0)
                 query = query.Where(x => x.RoleId == searchModel.RoleId);
-            return query.OrderByDescending(x=>x.Id).ToList();
+            return query.OrderByDescending(x => x.Id).ToList();
         }
     }
 }
