@@ -42,9 +42,7 @@ namespace AccountManagement.Application
             var account = _accountRepository.Get(command.Id);
             if (account == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);
-            if (_accountRepository.Exists(x => x.UserName == command.UserName || 
-                                               command.Mobile == x.Mobile && 
-                                               x.Id == command.Id))
+            if (_accountRepository.Exists(x => (x.UserName == command.UserName || command.Mobile == x.Mobile) && x.Id == command.Id))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             var path = $"ProfilePhotos";
             var picturePath = _fileUploader.Upload(command.ProfilePhoto, path);
