@@ -52,5 +52,16 @@ namespace ServiceHost.Areas.Administration.Pages.Accounts.Account
             var result = _accountApplication.Edit(command);
             return new JsonResult(result);
         }
+        public IActionResult OnGetChangePassword(long id)
+        {
+            var command = new ChangePassword { Id = id };
+            return Partial("ChangePassword", command);
+        }
+
+        public JsonResult OnPostChangePassword(ChangePassword command)
+        {
+            var result = _accountApplication.ChangePassword(command);
+            return new JsonResult(result);
+        }
     }
 }

@@ -23,7 +23,8 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
                 FullName = x.FullName,
                 Mobile = x.Mobile,
                 RoleId = x.RoleId,
-                UserName = x.UserName
+                UserName = x.UserName,
+                Email = x.Email,
             }).FirstOrDefault(x => x.Id == id);
         }
 
