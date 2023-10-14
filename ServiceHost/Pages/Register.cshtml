@@ -1,0 +1,66 @@
+﻿@page
+@model ServiceHost.Pages.RegisterModel
+@{
+    ViewData["Title"] = "ثبت نام";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="main-content login_content col-12 col-md-7 col-lg-5 mx-auto">
+            <header class="card-header">
+                <h3 class="card-title"><span>ایجاد حساب کاربری</span></h3>
+            </header>
+            <div class="login_box">
+                <form>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-account-title"><span>*</span> نام کاربری</div>
+                            <div class="form-account-row">
+                                <input class="input_second input_all" type="text" placeholder="نام کاربری شما">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-account-title"><span>*</span> شماره تماس</div>
+                            <div class="form-account-row">
+                                <input class="input_second input_all" type="text" placeholder="شماره تماس شما">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-account-title"><span>*</span> کلمه عبور</div>
+                            <div class="form-account-row">
+                                <input class="input_second input_all" type="password" placeholder="کلمه عبور شما">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-account-title"><span>*</span> تکرار کلمه عبور</div>
+                            <div class="form-account-row">
+                                <input class="input_second input_all" type="password" placeholder="تکرار کلمه عبور شما">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-account-agree">
+                                <label class="checkbox-form checkbox-primary">
+                                    <input type="checkbox" id="agree">
+                                    <span class="checkbox-check"></span>
+                                </label>
+                                <label for="agree">
+                                    تمامی <a href="#">شرایط و قوانین</a> استفاده از سرویس‌های سایت مَسای را به دقت مطالعه کرده و با آنها موافقت کامل دارم
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 text--center">
+                            <button class="btn big_btn btn-main-masai" type="submit">عضویت</button>
+                        </div>
+                        <div class="col-12 footer_login_reg text--center">
+                            <p>
+                                <span>قبلا ثبت نام کرده اید؟</span>
+                                <a href="login.html">ورود</a>
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
