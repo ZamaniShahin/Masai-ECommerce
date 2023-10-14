@@ -17,25 +17,48 @@
                         <div class="col-md-12 col-sm-12">
                             <div class="form-account-title"><span>*</span> نام کاربری</div>
                             <div class="form-account-row">
-                                <input class="input_second input_all" type="text" placeholder="نام کاربری شما">
+                                <input class="input_second input_all" name="username" type="text" placeholder="نام کاربری شما">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-account-title"><span>*</span> نام کامل</div>
+                            <div class="form-account-row">
+                                <input class="input_second input_all" name="fullname" type="text" placeholder="نام کامل شما">
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12">
                             <div class="form-account-title"><span>*</span> شماره تماس</div>
                             <div class="form-account-row">
-                                <input class="input_second input_all" type="text" placeholder="شماره تماس شما">
+                                <input class="input_second input_all" name="mobile" type="text" placeholder="شماره تماس شما">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-account-title"><span>*</span>ایمیل</div>
+                            <div class="form-account-row">
+                                <input class="input_second input_all" name="email" type="email" placeholder="ایمیل">
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12">
                             <div class="form-account-title"><span>*</span> کلمه عبور</div>
                             <div class="form-account-row">
-                                <input class="input_second input_all" type="password" placeholder="کلمه عبور شما">
+                                <input class="input_second input_all" name="password" type="password" placeholder="کلمه عبور شما">
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-12">
                             <div class="form-account-title"><span>*</span> تکرار کلمه عبور</div>
                             <div class="form-account-row">
-                                <input class="input_second input_all" type="password" placeholder="تکرار کلمه عبور شما">
+                                <input class="input_second input_all" name="rePassword" type="password" placeholder="تکرار کلمه عبور شما">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-account-agree">
+                                <label class="checkbox-form checkbox-primary">
+                                    <input type="checkbox" id="forget-password">
+                                    <span class="checkbox-check"></span>
+                                </label>
+                                <label for="agree">
+                                    فراموشی رمز عبور
+                                </label>
                             </div>
                         </div>
                         <div class="col-12">
@@ -55,7 +78,7 @@
                         <div class="col-12 footer_login_reg text--center">
                             <p>
                                 <span>قبلا ثبت نام کرده اید؟</span>
-                                <a href="login.html">ورود</a>
+                                <a asp-page="/Login">ورود</a>
                             </p>
                         </div>
                     </div>
