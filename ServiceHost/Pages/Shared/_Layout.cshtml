@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@inject _0_Framework.Application.IAuthHelper AuthHelper
+<!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="utf-8" />
@@ -6,7 +7,6 @@
     <link rel="icon" type="image/png" href="~/Theme/img/favicon.png">
     <title>مَسای شاپ </title>
     <meta name="description" content="مَسای شاپ ">
-    <meta name="author" content="Mirazimi">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
 
@@ -52,9 +52,19 @@
                     </div>
                     <div class="col-md-2 col-sm-12">
                         <div class="user_head">
-                            <a asp-page="/Register" class="iconhead">
-                                <i class="fa fa-user-large font-20" aria-hidden="true"></i>
-                            </a>
+                            @if (!AuthHelper.IsAuthenticated())
+                            {
+                                <a asp-page="/Register" class="iconhead">
+                                    <i class="fa fa-user-large font-20" aria-hidden="true"></i>
+                                </a>
+                            }
+                            else
+                            {
+                                <a asp-page="/Login" asp-page-handler="Logout" class="iconhead">
+                                    <i class="fa fa-user-large font-20" aria-hidden="true"></i>
+                                </a>
+                            }
+
                         </div>
                         <div class="cart dropdown masai_dropdown">
                             <span class="divider"></span>
@@ -197,7 +207,7 @@
     <script src="~/Theme/js/plugins/owl.carousel.min.js" type="text/javascript"></script>
     <script src="~/Theme/js/plugins/jquery.easing.1.3.min.js" type="text/javascript"></script>
     <!-- custom Js -->
-<script src="~/Theme/js/main.js" type="text/javascript"></script>
-@RenderSection("JS",false)
+    <script src="~/Theme/js/main.js" type="text/javascript"></script>
+    @RenderSection("JS",false)
 </body>
 </html>

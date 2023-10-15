@@ -8,5 +8,6 @@ namespace ServiceHost.Pages
         public void OnGet()
         {
         }
+        public IActionResult OnPostRegister()
     }
 }

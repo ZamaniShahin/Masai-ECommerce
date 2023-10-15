@@ -10,7 +10,11 @@
                 <h3 class="card-title"><span>ورود به حساب کاربری</span></h3>
             </header>
             <div class="login_box">
-                <form>
+                @if(Model.Message != null)
+                {
+                    <div class="alert alert-danger">@Model.Message</div>
+                }
+                <form method="post" asp-page-handler="Login">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-account-title"><span>*</span> نام کاربری</div>
