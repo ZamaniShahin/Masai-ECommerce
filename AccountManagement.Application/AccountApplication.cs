@@ -78,5 +78,18 @@ namespace AccountManagement.Application
         {
             return _accountRepository.Search(searchModel);
         }
+
+        public OperationResult Login(Login command)
+        {
+            var operation = new OperationResult();
+            var account = _accountRepository.GetBy(command.UserName);
+            if (account == null)
+                return operation.Failed(ApplicationMessages.WrongUserPass);
+
+            (bool verified,bool needUpgrade) result = _passwordHasher.Check(account.Password,command.Password);
+            if (!result.verified)
+                return operation.Failed(ApplicationMessages.WrongUserPass);
+            return operation.Succeeded();
+        }
     }
 }

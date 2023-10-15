@@ -411,3 +411,8 @@ E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Adminis
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Account\Edit.cshtml.g.cs
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Account\Index.cshtml.g.cs
 E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Account\ChangePassword.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\Create.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\Edit.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Accounts\Role\Index.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
+E:\SourceCodes\@Masai-ECommerce\ServiceHost\obj\Debug\net5.0\Razor\Pages\Register.cshtml.g.cs

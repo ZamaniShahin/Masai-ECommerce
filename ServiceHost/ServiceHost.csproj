@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\Register.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\AccountManagement.Infrastructure.Configuration\AccountManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\DiscountManagementConfiguration\DiscountManagementConfiguration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
@@ -29,15 +25,6 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="Pages\Product.cshtml" />
-    <_ContentIncludedByDefault Remove="Pages\Register.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\Register.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\Register.cshtml" />
   </ItemGroup>
 
 </Project>
