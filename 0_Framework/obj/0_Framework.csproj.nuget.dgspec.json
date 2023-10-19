@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {}
+    "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {}
   },
   "projects": {
-    "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "51XwUMmQ7S8y8tgZnId9O+Nct7UIRufNBKM7v6+NsgpxESev7fynm681RrQ95VDZ/7Am4Vf5h+JluuwBcCLvfg==",
+  "dgSpecHash": "BwxN8Rlj7XPUHUQqQe+c+CQ2Ye739C1ab0+qTVGrKwXMlKylGuKkt/j19Uco4sLVJxEAPBL0cdGNtUJiNK64dQ==",
   "success": true,
-  "projectFilePath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
+  "projectFilePath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -52,12 +52,5 @@
     "C:\\Users\\Shahin\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
     "C:\\Users\\Shahin\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

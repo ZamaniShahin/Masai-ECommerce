@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {}
+    "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {}
   },
   "projects": {
-    "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,14 +85,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
         "projectName": "DiscountManagement.Application.Contract",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,11 +109,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -147,14 +147,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "projectName": "DiscountManagement.Domain",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -171,11 +171,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
               }
             }
           }
@@ -209,14 +209,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
         "projectName": "DiscountManagement.Infrastructure.EFCore",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -233,11 +233,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -287,14 +287,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
         "projectName": "InventoryManagement.Application.Contracts",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -311,11 +311,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -349,14 +349,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "projectName": "InventoryManagement.Domain",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -373,11 +373,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -411,14 +411,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
         "projectName": "InventoryManagement.Infrastructure.EFCore",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -435,11 +435,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -493,14 +493,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj",
         "projectName": "_01_MasaiQuery",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\MasaiQuery\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\MasaiQuery\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -517,14 +517,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -558,14 +558,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -582,8 +582,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj"
               }
             }
           }
@@ -623,14 +623,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj",
         "projectName": "ShopManagement.Application",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -647,14 +647,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -688,14 +688,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
         "projectName": "ShopManagement.Configuration",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Configuration\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -712,17 +712,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\MasaiQuery\\_01_MasaiQuery.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application\\ShopManagement.Application.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }
             }
           }
@@ -776,14 +776,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Domain\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -800,11 +800,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\0_Framework\\0_Framework.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\0_Framework\\0_Framework.csproj"
               },
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -838,14 +838,14 @@
         }
       }
     },
-    "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+    "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "projectName": "ShopManagement.Infrastructure.EFCore",
-        "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
         "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-        "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\obj\\",
+        "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Infrastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -862,8 +862,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }

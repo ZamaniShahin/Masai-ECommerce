@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fJsN4dJBH+zrdQl4Om0ysTa5a5iUaw4LbGxavwgQ/vdQQ/alDPCPzqOs6Vr9qELcK3UDmQrN/BeqfrcgL3brOQ==",
+  "dgSpecHash": "G2lCxPXmMRS9m7AqpFmtVZ5ex/csldc4SY4yWLXZVNP3d8rHQTY9hvjbVSxUEcov6rmEATtx4rs40U2Zt4Li5w==",
   "success": true,
-  "projectFilePath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+  "projectFilePath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shahin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Shahin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
@@ -123,12 +123,5 @@
     "C:\\Users\\Shahin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Shahin\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

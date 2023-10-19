@@ -8538,11 +8538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ServiceHost\\ServiceHost.csproj",
+      "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ServiceHost\\ServiceHost.csproj",
       "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-      "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\ServiceHost\\obj\\",
+      "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8559,14 +8559,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagementConfiguration\\DiscountManagementConfiguration.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagementConfiguration\\DiscountManagementConfiguration.csproj"
+            "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagementConfiguration\\DiscountManagementConfiguration.csproj": {
+              "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagementConfiguration\\DiscountManagementConfiguration.csproj"
             },
-            "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
+            "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
             },
-            "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
+            "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
+              "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
             }
           }
         }

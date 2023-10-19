@@ -6502,11 +6502,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagementConfiguration\\DiscountManagementConfiguration.csproj",
+      "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagementConfiguration\\DiscountManagementConfiguration.csproj",
       "projectName": "DiscountManagementConfiguration",
-      "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagementConfiguration\\DiscountManagementConfiguration.csproj",
+      "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagementConfiguration\\DiscountManagementConfiguration.csproj",
       "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-      "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagementConfiguration\\obj\\",
+      "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagementConfiguration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6523,14 +6523,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
+            "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+              "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj"
             },
-            "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
+            "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application\\DiscountManagement.Application.csproj": {
+              "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Application\\DiscountManagement.Application.csproj"
             },
-            "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+            "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
             }
           }
         }
@@ -6573,13 +6573,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\SourceCodes\\@Masai-ECommerce\\DiscountManagementConfiguration\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

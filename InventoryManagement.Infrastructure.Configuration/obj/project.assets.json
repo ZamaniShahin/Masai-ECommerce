@@ -6502,11 +6502,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+      "projectUniqueName": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
       "projectName": "InventoryManagement.Infrastructure.Configuration",
-      "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
+      "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
       "packagesPath": "C:\\Users\\Shahin\\.nuget\\packages\\",
-      "outputPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\obj\\",
+      "outputPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Shahin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6523,14 +6523,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
+            "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Application\\InventoryManagement.Application.csproj": {
+              "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Application\\InventoryManagement.Application.csproj"
             },
-            "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+            "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+              "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
             },
-            "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+            "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "E:\\SourceCodes\\Masai-ECommerce\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
             }
           }
         }
@@ -6569,13 +6569,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\SourceCodes\\@Masai-ECommerce\\InventoryManagement.Infrastructure.Configuration\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
