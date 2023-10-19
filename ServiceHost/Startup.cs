@@ -1,5 +1,4 @@
 using _0_Framework.Application;
-using AccountManagement.Infrastructure.Configuration;
 using DiscountManagementConfiguration;
 using InventoryManagement.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -28,10 +27,8 @@ namespace ServiceHost
             ShopManagementBootstrapper.Configure(services,connectionString);
             DiscountManagementBootstrapper.Configure(services, connectionString);
             InventoryManagementBootstrapper.Configure(services, connectionString);
-            AccountManagementBootstrapper.Configure(services, connectionString);
 
             services.AddTransient<IFileUploader, FileUploader>();
-            services.AddTransient<IAuthHelper, AuthHelper>();
 
             services.Configure<CookiePolicyOptions>(options =>
             {

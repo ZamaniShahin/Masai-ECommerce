@@ -1,5 +1,4 @@
-﻿@inject _0_Framework.Application.IAuthHelper AuthHelper
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="utf-8" />
@@ -52,7 +51,7 @@
                     </div>
                     <div class="col-md-2 col-sm-12">
                         <div class="user_head">
-                            @if (!AuthHelper.IsAuthenticated())
+                            @if (@* !AuthHelper.IsAuthenticated() *@ true)
                             {
                                 <a asp-page="/Register" class="iconhead">
                                     <i class="fa fa-user-large font-20" aria-hidden="true"></i>
