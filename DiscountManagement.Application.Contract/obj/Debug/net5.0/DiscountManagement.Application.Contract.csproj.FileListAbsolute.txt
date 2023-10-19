@@ -2,7 +2,9 @@ E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\bin\Debu
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.AssemblyReference.cache
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\obj\Debu
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\obj\Debug\net5.0\refint\DiscountManagement.Application.Contract.dll
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\obj\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
-E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
-E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

@@ -3,8 +3,10 @@ E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\Disco
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\DiscountManagement.Domain.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\0_Framework.dll
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.csproj.AssemblyReference.cache
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.AssemblyInfoInputs.cache
@@ -15,5 +17,3 @@ E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\obj\Debug\net5.0\Disco
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\obj\Debug\net5.0\refint\DiscountManagement.Domain.dll
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\obj\Debug\net5.0\DiscountManagement.Domain.pdb
 E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\obj\Debug\net5.0\ref\DiscountManagement.Domain.dll
-E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
-E:\SourceCodes\@Masai-ECommerce\DiscountManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
